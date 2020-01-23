@@ -4,17 +4,24 @@
 		<title>A very basic site</title>
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>This can be more than just a title</h1>
+		<div id="container">
+			<div id="header>
+			    <h1>This can be more than just a title</h1>
+			</div><!--/#header -->
+		
+    		<div id="content">
+		   <div id="nav">
+				<h3>Navigation</h3>
+    			<ul>
+        		   <li><a href="/">Home</a></li>
+	        	   <li><a href="/About">About</a></li>
+        		   <li><a href="/Contact">Contact</a></li>
+        		   <li><a href="/Blog">Blog</a></li>
+    			</ul>
+		   </div><!-- /#nav -->
+		   </div id="main">
+				  <h2>Home Page</h2>
+        		
 				<p>Hello, just see what you can do with some basic HTML and CSS for a static website hosted on <em>Github</em>
         Want to know more about me? have a look here <a href="/about">About me</a></p> or just look at the attached Prezi presentation:
 			
@@ -25,10 +32,10 @@
 				landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0NUZBYitYcGc4Z1Z0b0Q3TE1JRUNYMGJ3PT0&amp;
 				landing_sign=Rd46viwejOCdGN9hXkgqGqiOQLLivA4twk3rbi5A1MY"></iframe>
 			
-		<h2>Blender sample</h2>
+		<h4>Blender sample</h4>
 		<img src="190305SnowMan.jpg" alt="Blender sample">
 			
-		<h2>Blender Game Engine (BGE) Starter Project</h2>
+		<h3>Blender Game Engine (BGE) Starter Project</h3>
 		<p>
 			This is the <a href="https://cgmasters.net/free-tutorials/python-scripting/">link</a> to a tutorial on how to use 
 			the Blender Game Engine.
@@ -46,14 +53,15 @@
 			<a href="carStart1.blend">Download the project</a> 
 		</p>
 
-			
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    			<ul>
-        			<li><a href="mailto:m.braehler@me.com">email</a></li>
-        			<li><a href="https://github.com/mikeanew">github.com/mikeanew</a></li>
-			</ul>
-		</footer>
+		   </div><!-- /#main -->	
+    		</div><!-- /#content -->
+		<div id="footer">
+    		   <ul>
+        		<li><a href="mailto:m.braehler@me.com">email</a></li>
+        		<li><a href="https://github.com/mikeanew">github.com/mikeanew</a></li>
+			Copyright &copy; 2020 Michael Braehler
+		   </ul>
+		</div><!-- /#footer -->
+		</div><!-- /#container -->
 	</body>
 </html>
